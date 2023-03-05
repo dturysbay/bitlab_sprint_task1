@@ -64,12 +64,14 @@ ul.nav > li > a > span{
 }
 .news{
   width: 300px;
+  
 }
 .news_descr{
   border: 1px solid #b8dadb;
   padding: 10px;
   position: relative;
   bottom: 5px;
+  height: 160px;
 }
 
 .read_more_btn > button{
@@ -77,10 +79,13 @@ ul.nav > li > a > span{
   color: white;
   padding: 5px;
   border: transparent;
+  position: absolute;
+  bottom: 10px;
 }
 
 .news > img{
   width: 300px;
+  height: 200px;
   margin: 0;
   padding: 0;
 }
